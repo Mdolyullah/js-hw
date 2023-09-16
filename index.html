@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>js start</title>
+    <!-- icon links -->
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+  <!--css links-->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+
+  </head>
+  <body>
+
+    <div class="container mb-200">
+
+      <!-- text change -->
+      <h1 class="text-danger">click the button to chang the text</h1>
+      <button type="button" class="btn btn-dark" onclick="textChange()">Text change</button>
+      <h2 id="h2">Lorm ipsum dolor sit amet</h2>
+
+            <!-- text change -->
+      <h1 class="text-dark">click the button to chang the text</h1>
+      <button type="button" class="btn btn-dark" onclick="textChange1()">Text change</button>
+      <h2 id="h3">Lorm ipsum dolor sit amet</h2>
+
+            <!-- text change -->
+      <h1 class="text-danger">click the button to chang the text</h1>
+      <button type="button" class="btn btn-dark" onclick="textChange2()">Text change</button>
+      <h2 id="h4">Lorm ipsum dolor sit amet</h2>
+
+            <!-- text change -->
+      <h1 class="text-gray-dark">click the button to chang the text</h1>
+      <button type="button" class="btn btn-dark" onclick="textChange3()">Text change</button>
+      <h2 id="h5">Lorm ipsum dolor sit amet</h2>
+
+            <!-- text change -->
+      <h1 class="text-danger">click the button to chang the text</h1>
+      <button type="button" class="btn btn-dark" onclick="textChange4()">Text change</button>
+      <h2 id="h6">Lorm ipsum dolor sit amet</h2>
+
+            <!-- text change -->
+      <h1 class="text-danger">click the button to chang the text</h1>
+      <button type="button" class="btn btn-dark" onclick="textChange5()">Text change</button>
+      <h2 id="h7">Lorm ipsum dolor sit amet</h2>
+
+            <!-- text change -->
+      <h1 class="text-danger">click the button to chang the text</h1>
+      <button type="button" class="btn btn-dark" onclick="textChange6()">Text change</button>
+      <h2 id="h8">Lorm ipsum dolor sit amet</h2>
+
+            <!-- text change -->
+      <h1 class="text-danger">click the button to chang the text</h1>
+      <button type="button" class="btn btn-dark" onclick="textChange7()">Text change</button>
+      <h2 id="h9">Lorm ipsum dolor sit amet</h2>
+
+            <!-- text change -->
+      <h1 class="text-danger">click the button to chang the text</h1>
+      <button type="button" class="btn btn-dark" onclick="textChange8()">Text change</button>
+      <h2 id="h10">Lorm ipsum dolor sit amet</h2>
+
+            <!-- text change -->
+      <h1 class="text-danger">click the button to chang the text</h1>
+      <button type="button" class="btn btn-dark" onclick="textChange9()">Text change</button>
+      <h2 id="h11">Lorm ipsum dolor sit amet</h2>
+
+      <hr>
+
+      <h1 class="text-danger">click the button to show the date</h1>
+      <button type="button" class="btn btn-dark" onclick="showDate()">Show Date</button>
+      <h2 id="d_h2">Date</h2>
+
+      <hr>
+
+      <h1 class="text-danger">click the button to ON/OFF the Bulb</h1>
+      <button onclick="bulbOn()" type="button" class="btn btn-success">Bulb On</button>
+      <button onclick="bulbOff()" type="button" class="btn btn-danger">Bulb Off</button>
+      <img id="img" src="images/bulboff.gif" alt="">
+
+      <hr>
+
+      <h1 class="text-danger">click the button to change the font size</h1>
+      <button onclick="fontChange()" type="button" class="btn btn-dark">Font Change</button>
+      <h2 id="f_h2">Lorem ipsum, dolor sit amet.</h2>
+
+      <hr>
+
+      <h1>Click the button to show/hide the text</h1>
+      <button onclick="show()" class="btn btn-dark">Show</button>
+      <button onclick="hide()" class="btn btn-dark">Hide</button>
+      <h2 id="c_h2">Lorem ipsum, dolor sit amet.</h2>
+
+      <hr>
+
+      <h1>Click the button to show the text- document.write</h1>
+      <button onclick="writeOutput()" type="button" class="btn btn-dark">Dwrite</button>
+
+      <hr>
+
+      <h1>Click the button to show the text- window.alert</h1>
+      <button onclick="wAlert()" type="button" class="btn btn-dark">WAlert</button>
+
+      <hr>
+
+      <h1>Click the button to show the text- Console.log</h1>
+      <button onclick="cLog()" type="button" class="btn btn-dark">Clog</button>
+
+      <hr>
+
+      <h1>Clic the button to show the variable output</h1>
+      <button onclick="vOutput()" type="button" class="btn btn-dark">Variable output</button>
+      <h2 id="v_h2"></h2>
+
+      <hr>
+
+      <h1 class="text-danger">In this example, x is defined as a variable. Then, x is assigned the value of 6:</h1>
+      <button onclick="vOutput1()" type="button" class="btn btn-dark">Variable output1</button>
+      <h2 id="v_assigned"></h2>
+
+      <hr>
+
+      <h1>JavaScript uses arithmetic operators to compute values (just like algebra).</h1>
+      <button onclick="vOutput2()" type="button" class="btn btn-dark">Variable output2</button>
+      <h2 id="v_algebra"></h2>
+
+      <hr>
+
+      <h1>In JavaScript the = operator is used to assign values to variables.</h1>
+      <button onclick="vOutput3()" type="button" class="btn btn-danger">Variable output3</button>
+      <h2 id="v_assign"></h2>
+
+      <hr>
+
+      <h1>Expressions compute to values.</h1>
+      <button onclick="vOutput4()" type="button" class="btn btn-dark">Variable output4</button>
+      <h2 id="v_ex"></h2>
+
+      <hr>
+
+      <h1>Expressions compute to values.</h1>
+      <button onclick="vOutput5()" type="button" class="btn btn-dark">Variable output5</button>
+      <h2 id="v_value"></h2>
+
+      <hr>
+
+      <h1>Keyword Creates Variables</h1>
+      <button onclick="vOutput6()" type="button" class="btn btn-dark">Variable output6</button>
+      <h2 id="v_key"></h2>
+
+      <hr>
+
+      <h1 id="myH"></h1>
+      <p id="myP"></p>
+
+      <hr>
+
+      <h1 class="text-danger">Create a variable, assign a value to it, and display it:</h1>
+      <button onclick="vOutput7()" type="button" class="btn btn-dark">Variable output7</button>
+      <h2 id="v_car"></h2>
+
+      <hr>
+
+      <h1>The result of adding 5 + 2 + 3 is:</h1>
+      <button onclick="vOutput8()" type="button" class="btn btn-dark">Variable output8</button>
+      <h2 id="v_add"></h2>
+
+      <hr>
+
+      <h1>The result of adding "John" + " " + "Doe" is:</h1>
+      <button onclick="vOutput9()" type="button" class="btn btn-dark">Variable output9</button>
+      <h2 id="v_add1"></h2>
+
+      <hr>
+
+       <h1>The result of adding "5" + 2 + 3 is:</h1>
+      <button onclick="vOutput10()" type="button" class="btn btn-dark">Variable output10</button>
+      <h2 id="v_add2"></h2>
+
+      <hr>
+
+      <h1 class="text-danger">The dollar sign is treated as a letter in JavaScript names.</h1>
+      <button onclick="vOutput11()" type="button" class="btn btn-dark">Variable output11</button>
+      <h2 id="v_names"></h2>
+
+      <hr>
+
+      <h1 class="text-dark">The underscore is treated as a letter in JavaScript names.</h1>
+      <button onclick="vOutput12()" type="button" class="btn btn-danger">Variable output12</button>
+      <h2 id="v_under"></h2>
+
+      <hr>
+
+      <h1 class="text-gray-dark">Declaring a constant array does NOT make the elements unchangeable:</h1>
+      <button onclick="vOutput13()" type="button" class="btn btn-danger">Variable output13</button>
+      <h2 id="v_array"></h2>
+
+      <hr>
+
+      <h1 class="text-danger">You can NOT reassign a constant array:</h1>
+      <button onclick="vOutput14()" type="button" class="btn btn-danger">Variable output14</button>
+      <h2 id="v_array1"></h2>
+
+      <hr>
+
+      <h1 class="text-dark">Addition Assignment</h1>
+      <button onclick="vOutput15()" type="button" class="btn btn-dark">Variable output15</button>
+      <h2 id="v_adda"></h2>
+
+      <hr>
+
+      <h1>Call a function which performs a calculation and returns the result:</h1>
+      <button onclick="vOutput16()" type="button" class="btn btn-dark">Variable output16</button>
+      <h2 id="v_fuction"></h2>
+
+      <hr>
+
+      <h1>JavaScript Objects</h1>
+      <button onclick="vOutput17()" type="button" class="btn btn-dark">Variable output17</button>
+      <h2 id="v_obj"></h2>
+
+      <hr>
+
+      <h1>JavaScript Strings</h1>
+      <button onclick="vOutput18()" type="button" class="btn btn-dark">Variable output18</button>
+      <h2 id="v_stn"></h2>
+
+      <hr>
+
+      <h1>Strings are written inside quotes. You can use single or double quotes:</h1>
+      <button onclick="vOutput19()" type="button" class="btn btn-dark">Variable output19</button>
+      <h2 id="v_string"></h2>
+
+      <hr>
+
+      <h1>The length Property</h1>
+      <button onclick="vOutput20()" type="button" class="btn btn-dark">Variable output20</button>
+      <h2 id="v_len"></h2>
+
+      <hr>
+
+      <h1>Numbers can be written with or without decimals:</h1>
+      <button onclick="vOutput21()" type="button" class="btn btn-dark">Variable output21</button>
+      <h2 id="v_number"></h2>
+
+
+    </div>
+
+  <!--script links-->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+  </body>
+</html>
